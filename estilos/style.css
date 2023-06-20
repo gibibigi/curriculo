@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: wheat;
+}
+
+main{
+    margin: auto;
+    
+}
+/*#E8B964 #E3CEA6 #B09F80*/
+header{ 
+    background-color: #B09F80;
+    width: 100vw;
+    height: 70vh;
+}
+
+section{background-color: #E3CEA6;}
+header > p > img#rig{
+    
+}
+p{}
+p > a{}
+p > ul > li{
+    text-decoration: none;
+}
+h1{}
+h2{}
+h3{}
