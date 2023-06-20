@@ -12,18 +12,15 @@ body{
 
 main{
     margin: auto;
-    
 }
 /*#E8B964 #E3CEA6 #B09F80*/
 header{ 
     background-color: #B09F80;
-    width: 100vw;
-    height: 70vh;
 }
 
 section{background-color: #E3CEA6;}
-header > p > img#rig{
-    
+header > p > img.rig{
+    background-position: left top;
 }
 p{}
 p > a{}
