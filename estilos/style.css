@@ -19,9 +19,18 @@ header{
 }
 
 section{background-color: #E3CEA6;}
-header > p > img.rig{
-    background-position: left top;
+div.rig{
+    background-image: url(../imagens/img2.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
+
+div.rig > p{text-align: center;}
+div.rig > h2{text-align: center;}
+div.rig > h3{text-align: center; padding-bottom: 10px;}
+
+div#r{ background-position: right top;}
 p{}
 p > a{}
 p > ul > li{
