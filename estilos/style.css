@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: wheat;
+    background-color: white;
 }
 
 main{
@@ -23,19 +23,43 @@ div.rig{
     background-image: url(../imagens/img2.jpg);
     background-repeat: no-repeat;
     height: 250px;
-    border: 1px solid rgba(0, 0, 0, 0);
+    width: 1292px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
 }
 
-div.rig > p{text-align: center;}
-div.rig > h2{text-align: center;}
-div.rig > h3{text-align: center; padding-bottom: 10px;}
+div#e{
+    height: 510px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+}
 
+div{
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+}
+div.tit{text-align: center;}
+div#o{text-align: center; border-radius: 6px; border: 0.1px solid rgba(0, 0, 0, 0.521); height: 22px;}
+div.hh{text-align: center; border-radius: 6px; border: 0.1px solid rgba(0, 0, 0, 0.521); height: 30px; background-color: #E8B964;}
+
+div.rig > p{text-align: center; font-size: 1em;  padding-bottom: 20px;}
+div.rig > a{padding-bottom: 20px;}
+div.rig > h2{text-align: center; border-radius: 6px; border: 0.1px solid rgba(0, 0, 0, 0.050);}
+div.rig > h3{text-align: center; padding-bottom: 10px; font-size: 1em;}
+div#f > h3{padding: 5px;}
+div#f > p{padding: 5px;}
+div#q > h3{padding: 16px;}
+div#q > p{padding: 5px;}
 div#r{ background-position: right top;}
 p{}
-p > a{}
-p > ul > li{
-    text-decoration: none;
+a{border: 1px solid black; border-radius: 10px; padding: 5px; background-color: #E8B964; text-decoration: none;}
+li{
+    text-decoration: none; padding: 10px;
 }
+div#e > h3{padding: 12px;}
+div#c > ul > li{padding: 3.6px;}
+div#e > p{text-decoration: underline;}
 h1{}
 h2{}
 h3{}
